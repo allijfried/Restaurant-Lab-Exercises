@@ -11,7 +11,7 @@ For instance, 'app1' could be replaced with 'Gazpacho' when the function is trig
 
  function changeText(idElement) { //idElement is the parameter in this function
     if(idElement==1){ // == is an operator for 'equal to'
-       document.getElementById().innerHTML ='Gazpacho'; //getElementById returns the element with a specific ID attribute **FIX CODE HERE**
+       document.getElementById("app1").innerHTML ='Gazpacho'; //getElementById returns the element with a specific ID attribute **FIX CODE HERE**
        //how would you add more code to replace all menu items with new text? **ADD CODE HERE**
        return false; //adding this stops the default behavior of following a link
     }
